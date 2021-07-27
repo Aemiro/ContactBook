@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook.Domain", "Conta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Packages", "libs\Core.Packages\Core.Packages.csproj", "{3F8A4D3C-9DEB-4F14-9F1F-E970F48CAAA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook.Application", "ContactBook.Application\ContactBook.Application.csproj", "{27627116-327E-4BB5-B70A-C30DFE7456DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook.Persistence", "ContactBook.Persistence\ContactBook.Persistence.csproj", "{2B7BE42F-8239-43C4-B5C9-1AF558B7D6B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{3F8A4D3C-9DEB-4F14-9F1F-E970F48CAAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F8A4D3C-9DEB-4F14-9F1F-E970F48CAAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F8A4D3C-9DEB-4F14-9F1F-E970F48CAAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27627116-327E-4BB5-B70A-C30DFE7456DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27627116-327E-4BB5-B70A-C30DFE7456DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27627116-327E-4BB5-B70A-C30DFE7456DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27627116-327E-4BB5-B70A-C30DFE7456DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7BE42F-8239-43C4-B5C9-1AF558B7D6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7BE42F-8239-43C4-B5C9-1AF558B7D6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7BE42F-8239-43C4-B5C9-1AF558B7D6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7BE42F-8239-43C4-B5C9-1AF558B7D6B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
